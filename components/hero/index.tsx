@@ -43,7 +43,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     The modern landing page{' '}
+                     Metal Sul{' '}
                   </Text>
                   <Text
                      h1
@@ -51,7 +51,6 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     for{' '}
                   </Text>
                   <Text
                      h1
@@ -60,7 +59,7 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     React developers
+                     Pré-Fabricados com padrão de qualidade.
                   </Text>
                </Box>
 
@@ -72,8 +71,8 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                  Na Metalsul, nossos pré-fabricados são desenvolvidos com um padrão de qualidade que garante segurança, durabilidade e eficiência em cada estrutura. 
+                  Com a Metalsul, você tem a certeza de um pré-fabricado confiável, resistente e pronto para atender às necessidades específicas do seu projeto.
                </Text>
 
                <Flex
@@ -83,8 +82,7 @@ export const Hero = () => {
                   }}
                   wrap={'wrap'}
                >
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
+                  <Button>Entre em contato</Button>
                </Flex>
                <Flex
                   wrap={'wrap'}
@@ -102,7 +100,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> No credit card required.
+                     <CheckIcon /> Agronegócio
                   </Flex>
                   <Flex
                      css={{
@@ -110,7 +108,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> 14-day free trial.
+                     <CheckIcon /> Comércio
                   </Flex>
                   <Flex
                      css={{
@@ -118,7 +116,15 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Cancel anytime.
+                     <CheckIcon /> Indústrial
+                  </Flex>
+                  <Flex
+                     css={{
+                        color: '$accents7',
+                        alignItems: 'center',
+                     }}
+                  >
+                     <CheckIcon /> Residêncial
                   </Flex>
                </Flex>
             </Box>
@@ -127,10 +133,12 @@ export const Hero = () => {
                   '& img': {
                      width: '775px',
                      objectFit: 'contain',
+                     borderRadius: '$2xl'
                   },
+                  
                }}
             >
-               <img src="mock.png" />
+               <img src="img1.jpg" />
             </Box>
          </Flex>
          <Divider

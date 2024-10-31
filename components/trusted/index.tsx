@@ -18,7 +18,7 @@ export const Trusted = () => {
             }}
          >
             <Text h2 css={{textAlign: 'center'}}>
-               Trusted by over 10000+ customers
+            Trabalhos com expertise
             </Text>
             <Text
                css={{
@@ -26,11 +26,12 @@ export const Trusted = () => {
                   maxWidth: '800px',
                   textAlign: 'center',
                }}
-               weight="normal"
+               weight="medium"
                size={'$lg'}
             >
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-               eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Refletindo nosso compromisso com a excelência e a qualidade em todas as etapas da construção, 
+               nossa equipe de profissionais é altamente qualificada e possui experiência em diversos
+                setores, o que nos permite oferecer soluções adaptadas às necessidades específicas de cada cliente.
             </Text>
             <Grid.Container
                gap={6}

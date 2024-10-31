@@ -28,9 +28,9 @@ export const Features1 = () => {
          >
             <Flex direction="column">
                <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+               Soluções
                </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>De acordo com a sua necessidades</Text>
                <Text
                   span
                   css={{
@@ -38,10 +38,20 @@ export const Features1 = () => {
                      color: '$accents8',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  <Text
+                  span>
+                     Com a {' '}
+                  </Text>
+                  <Text
+                  span weight={'bold'}
+                     css={{
+                        color: '$blue600',
+                     }}>
+                     Metal Sul {' '}
+                  </Text>
+                  <Text 
+                  span>você encontra tudo o que precisa para sua obra com preços competitivos e condições de pagamento facilitadas </Text>
+                  
                </Text>
 
                <Flex
@@ -53,7 +63,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Soluções personalizadas
                      </Text>
                      <Text
                         span
@@ -62,9 +72,8 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        <Text span weight={'medium'}>Desenvolvemos projetos exclusivos</Text> para cada cliente.
+                        Adaptamos cada detalhe do seu projeto às suas necessidades
                      </Text>
                   </Flex>
                </Flex>
@@ -77,7 +86,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Agilidade
                      </Text>
                      <Text
                         span
@@ -86,9 +95,9 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        <Text span weight={'medium'} > Reduza o tempo de obra e entregue seu projeto antes do prazo. </Text> 
+                        Nossa produção em fábrica garante maior precisão e menor tempo de instalação,
+                        permitindo que você economize tempo e dinheiro.
                      </Text>
                   </Flex>
                </Flex>
@@ -101,7 +110,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Sustentabilidade
                      </Text>
                      <Text
                         span
@@ -110,9 +119,8 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        <Text span weight={'medium'} >Construa de forma mais sustentável e eficiente. </Text> 
+                        Produzimos com materiais de alta qualidade e processos que minimizam o impacto ambiental.
                      </Text>
                   </Flex>
                </Flex>
